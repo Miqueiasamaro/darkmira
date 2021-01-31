@@ -1,0 +1,175 @@
+/*
+Theme Name: Darkmira
+Text Domain: Darkmira
+Version: 1.0
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: Tema desenvolvido para um teste prático
+Author: Miqueias Amaro
+Author URI: https://github.com/miqueiasamaro
+Theme URI: htthttps://github.com/miqueiasamaro
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+	0. 	Menu
+	1. 	Banner
+	2. 	Formulário
+
+----------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------- */
+/*	0. Menu
+/* -------------------------------------------------------------------------- */
+
+
+@font-face {
+    font-family: 'Kepler Std';
+    src: url('assets/fonts/KeplerStd-BoldScnSubh.woff2') format('woff2'),
+        url('assets/fonts/KeplerStd-BoldScnSubh.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1{ 
+	font-family: 'Kepler Std';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 3.2rem;
+}
+
+#menu-topo li a {
+	color: #494949;
+	font-size: 18px;
+	padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*	1. Banner
+/* -------------------------------------------------------------------------- */
+
+
+.banner{
+	padding: 150px 0;
+}
+.banner img {
+	margin: 20px auto;
+    display: block;
+}
+.banner-bg{
+	background: url('assets/images/banner.png');
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: top right;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*	1. Formulário
+/* -------------------------------------------------------------------------- */
+
+#cadastro{
+	padding: 100px 0;
+}
+.cadastro-descricao h1{
+	padding-bottom: 20px;
+	margin-top: 50px;
+
+}
+
+.formulario{
+	box-shadow: 0px 0px 6px #0000007d;
+	border-radius: 20px;
+	padding: 30px 15px;
+	height: min-content;
+}
+.cad-titulo{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.formulario img {
+	border-radius: 50%;
+	border: 1px solid #ffbaa1;
+	width: 100px;
+	height: 100px;
+	margin: 10px auto;
+	display: block;
+}
+.formulario .form-control {
+	border: none;
+	height: 30px;
+    border-bottom: 1px solid #ffbaa1;
+    border-radius: 0;
+}
+.form-control:focus{
+	box-shadow: none;
+}
+.formulario label {
+	margin-bottom: 0;
+	color: #ffbaa1;
+}
+.formulario .btn{
+	background: rgb(255,222,201);
+	background: linear-gradient(120deg, rgba(255,222,201,1) 0%, rgba(255,186,146,1) 100%);
+	float: right;
+	color: #fff;
+	margin-top: 10px;
+	padding: 5px 20px;
+}
+.formulario textarea {
+	height: 65px !important;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*	1. Memorial
+/* -------------------------------------------------------------------------- */
+
+
+.memorial_msg{
+	box-shadow: 0px 0px 6px #0000007d;
+	border-radius: 20px;
+	padding: 0;
+	margin-top: 80px;
+	height: min-content;
+}
+
+.memorial_img img {
+	width: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.memorial_info{
+	border-radius: 20px;
+	background: #fff;
+	margin-top: -20px;
+	display: inline-block;
+	width: 100%;
+	padding: 10px 20px;
+}
+.memorial_info h4{ 
+	color: #ffa065;
+	font-family: 'Kepler Std';
+	text-align: center;
+}
+.memorial_data{
+	text-align: center;
+	padding-bottom: 18px;
+}
